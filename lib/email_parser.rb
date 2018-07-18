@@ -5,7 +5,18 @@
 
 require 'pry'
 
+class EmailParser(emails)
+  attr_reader :emails
+  
+  def initialize(emails)
+    @emails = emails
+  end
 
+  def parse
+  
+  end
+
+end
 
 # class EmailParser
 #   attr_reader :emails
