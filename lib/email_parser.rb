@@ -13,7 +13,7 @@ class EmailParser(emails)
   end
 
   def parse
-  
+  binding.pry
   end
 
 end
