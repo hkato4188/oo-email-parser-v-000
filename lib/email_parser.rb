@@ -13,10 +13,8 @@ class EmailParser
   end
 
   def parse
-  binding.pry
     emails.split.map{|x| x.split(",")}.flatten.uniq
   end
-
 end
 
 # class EmailParser
