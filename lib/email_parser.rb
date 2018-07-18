@@ -14,6 +14,7 @@ class EmailParser
 
   def parse
   binding.pry
+    emails.split
   end
 
 end
