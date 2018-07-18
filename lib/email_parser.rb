@@ -5,7 +5,7 @@
 
 require 'pry'
 
-class EmailParser(emails)
+class EmailParser
   attr_reader :emails
   
   def initialize(emails)
